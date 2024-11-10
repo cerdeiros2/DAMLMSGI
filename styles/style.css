@@ -1,0 +1,174 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+* {
+    box-sizing: border-box;
+
+
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+
+    background-image: url(../img/space_back.jpg);
+    background-repeat: round;
+    background-size: auto;
+
+
+}
+
+
+header {
+    display: flex;
+    flex-direction: column;
+    /* background-image: url(../img/starback.bmp); */
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    background-color: rgba(60, 60, 131, 0.805);
+    padding: 1%;
+    margin: 1% 5% 2%;
+    justify-content: center;
+    align-items:center;
+}
+
+header h1,
+header h2 {
+
+    margin: 0px;
+}
+
+header .quote {
+    font-size: small;
+    font-style: italic;
+    text-align: center;
+    width: 85%;
+    align-self: center;
+
+}
+
+header .by{
+    font-size: small;
+    font-style: italic;
+    border: 0px;
+    padding: 0px;
+    width: 40%;
+    text-align: right;
+}
+
+.template {
+
+    display: flex;
+    padding: 0px 5%;
+    align-items: stretch;
+    justify-content: space-around;
+    color: whitesmoke;
+    margin: 3px 0px 0px 0px;
+
+
+
+}
+
+.navbar {
+    display: flex;
+    flex-flow: column wrap;
+    text-align: left;
+    padding: 75px 18px 0px 8px;
+    border-right: solid 2px whitesmoke;
+    flex: 15%;
+    gap: 2%;
+    justify-content: flex-start;
+    background-color: rgba(60, 60, 131, 0.805);
+    font-size: medium;
+}
+
+
+
+
+.link {
+    color: whitesmoke;
+    text-decoration: none;
+
+
+}
+
+
+
+.link:visited {
+    color: gray;
+    text-decoration: underline;
+}
+
+.link:hover {
+    color: orchid;
+    font-size: 102%;
+}
+
+.template article {
+    background-color: rgb(60, 60, 131, 0.9);
+    padding: 2% 10% 2% 4%;
+    font-size: x-large;
+    width: 95%;
+
+}
+
+
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+
+}
+
+
+
+.template ul li {
+    display: flex;
+    justify-content: space-between;
+    font-size: 75%;
+    padding: 12px;
+
+    align-items: center;
+
+    flex-shrink: 1;
+
+    border-top: 1px whitesmoke solid;
+
+
+
+}
+
+.template img {
+    height: 200px;
+    margin: 2.5% 2.5% 2.5% 0px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+}
+
+
+footer {
+
+    background-color: rgb(60, 60, 131, 0.7);
+    margin: 0% 5% 1.5%;
+    text-align: center;
+    color: whitesmoke;
+    font-size: smaller;
+
+
+    border-top: 2px whitesmoke solid;
+    padding-top: 12px;
+
+
+}
+
+footer p {
+    padding-top: 0px;
+    margin-top: 0;
+}
+
+.rank {
+    padding-left: 4%;
+    
+}
