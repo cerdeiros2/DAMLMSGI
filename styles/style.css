@@ -11,7 +11,7 @@ body {
     margin: 0;
     padding: 0;
 
-    background-image: url(../img/space_back.jpg);
+    background-image: url(../img/Space_texture.jpg);
     background-repeat: round;
     background-size: auto;
 
@@ -22,16 +22,14 @@ body {
 header {
     display: flex;
     flex-direction: column;
-    /* background-image: url(../img/starback.bmp); */
-    background-repeat: no-repeat;
-    background-size: cover;
+    
     color: rgb(255, 255, 255);
     text-align: center;
     background-color: rgba(60, 60, 131, 0.805);
     padding: 1%;
     margin: 1% 5% 2%;
     justify-content: center;
-    align-items:center;
+    align-items: center;
 }
 
 header h1,
@@ -49,7 +47,7 @@ header .quote {
 
 }
 
-header .by{
+header .by {
     font-size: small;
     font-style: italic;
     border: 0px;
@@ -59,6 +57,19 @@ header .by{
 }
 
 .template {
+
+    display: flex;
+    padding: 0px 5%;
+    align-items: stretch;
+    justify-content: space-around;
+    color: whitesmoke;
+    margin: 3px 0px 0px 0px;
+
+
+
+}
+
+.template_details {
 
     display: flex;
     padding: 0px 5%;
@@ -106,10 +117,11 @@ header .by{
     font-size: 102%;
 }
 
-.template article {
+.template article,
+.template_details article {
     background-color: rgb(60, 60, 131, 0.9);
     padding: 2% 10% 2% 4%;
-    font-size: x-large;
+    font-size: large;
     width: 95%;
 
 }
@@ -137,13 +149,46 @@ main {
 
     border-top: 1px whitesmoke solid;
 
+}
 
+.template_details .ficha {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+    padding: 12px;
+
+    align-items: center;
+
+    flex-shrink: 1;
+
+    border-top: 1px whitesmoke solid;
+
+}
+
+.template_details .ficha_line {
+    display: flex;
+
+    justify-content: space-between;
+
+    padding: 0px;
+    margin: 0px;
+    align-items: center;
+    width: 40%;
+    flex-shrink: 0;
+
+    border-top: 1px whitesmoke solid;
 
 }
 
 .template img {
     height: 200px;
     margin: 2.5% 2.5% 2.5% 0px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+}
+
+.template img:hover {
+    scale: 1.15;
     box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
 }
 
@@ -170,5 +215,22 @@ footer p {
 
 .rank {
     padding-left: 4%;
-    
+
+}
+
+
+.details {
+    color: orchid;
+    font-size: 98%;
+    text-align: right;
+    padding-top: 10px;
+}
+
+.marco {
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-right: 3%;
+    ;
 }
