@@ -91,10 +91,10 @@ header .by {
     padding: 75px 12px 0px 10px;
     border-right: solid 2px whitesmoke;
     align-items: center;
-    flex: 8%;
+    width: 20vmin;
     justify-content: flex-start;
    
-    font-size: 150%;
+    
     background-image: url("../img/sidebackground.jpg");
     background-size:auto
 }
@@ -106,7 +106,7 @@ header .by {
 
 
 
-.link {
+.link, h2 a {
     color: whitesmoke;
     text-decoration: none;
 
@@ -115,12 +115,12 @@ header .by {
 
 
 
-.link:visited {
+.link:visited ,h2 a:visited {
     color: rgb(250, 236, 236);
     text-decoration: underline;
 }
 
-.link:hover {
+.link:hover, h2 a:hover {
     color: orchid;
     font-size: 102%;
 }
@@ -152,7 +152,7 @@ main {
 .template  li, .template_details  li {
     display: flex;
     justify-content: space-between;
-    font-size: 75%;
+    
     padding: 12px;
 
     align-items: center;
@@ -194,7 +194,9 @@ main {
 }
 
 .template img {
-    height: 200px;
+    width: 20vmin;
+    min-height: 270px;
+    min-width: 160px;
     margin: 2.5% 2.5% 2.5% 0px;
     box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
 }
@@ -253,13 +255,16 @@ footer p {
     justify-content: center;
     margin: 0;
     padding: 0;
-    font-size: 125%;
+    width: 85vmax;
+    
+    font-size: 100%;
 }
 
 .reseña p {
     margin: 0px;
     padding: 2px 12px 0px 0px;
     width: 95%;
+    
 }
 .sabermas {
     text-align: right;
@@ -271,3 +276,13 @@ footer p {
     justify-self:flex-end;
     font-size: 85%;
 }
+
+
+
+.news li {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+
+}
+
