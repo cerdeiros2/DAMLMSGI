@@ -22,13 +22,13 @@ body {
 header {
     display: flex;
     flex-direction: column;
-    background-image: url("../img/header_background.jpg");
+    /* border: dotted 1px; */
     background-size: cover;
     color: whitesmoke;
     text-align: center;
    
     padding: 1%;
-    margin: 1% 5% 2%;
+    margin: 1% 5% 0.5%;
     justify-content: center;
     align-items: center;
 }
@@ -60,11 +60,12 @@ header .by {
 .template {
 
     display: flex;
+    
     padding: 0px 5%;
     align-items: stretch;
     justify-content: space-around;
     color: whitesmoke;
-    margin: 3px 0px 0px 0px;
+    margin: 0px 0px 0px 0px;
 
 
 
@@ -73,11 +74,11 @@ header .by {
 .template_details {
 
     display: flex;
-    
+    padding: 0px 5%;
     align-items: stretch;
     justify-content: space-evenly;
     color: whitesmoke;
-    margin: 3px 0px 0px 0px;
+    margin: 0px 0px 0px 0px;
 
 
 
@@ -92,8 +93,10 @@ header .by {
     align-items: center;
     flex: 8%;
     justify-content: flex-start;
-    background-color: rgba(60, 60, 131, 0.805);
-    font-size: medium;
+   
+    font-size: 150%;
+    background-image: url("../img/sidebackground.jpg");
+    background-size:auto
 }
 
 .navbar ul {
@@ -113,7 +116,7 @@ header .by {
 
 
 .link:visited {
-    color: gray;
+    color: rgb(250, 236, 236);
     text-decoration: underline;
 }
 
@@ -124,10 +127,12 @@ header .by {
 
 .template article,
 .template_details article {
-    background-color: rgb(60, 60, 131, 0.9);
+    
     padding: 2% 10% 2% 4%;
     font-size: large;
     width: 95%;
+    background-image: url("../img/mainback.jpg");
+    background-size: contain;
 
 }
 
@@ -141,8 +146,10 @@ main {
 }
 
 
+.cerrar{
+    border-bottom:  1px whitesmoke solid;}
 
-.template ul li {
+.template  li, .template_details  li {
     display: flex;
     justify-content: space-between;
     font-size: 75%;
@@ -205,7 +212,7 @@ footer {
     text-align: center;
     color: whitesmoke;
     font-size: smaller;
-
+    background-image: url("../img/mainback.jpg");
 
     border-top: 2px whitesmoke solid;
     padding-top: 12px;
@@ -251,6 +258,16 @@ footer p {
 
 .reseña p {
     margin: 0px;
-    padding: 2px 12px 2px 0px;
+    padding: 2px 12px 0px 0px;
     width: 95%;
+}
+.sabermas {
+    text-align: right;
+    font-style: italic;
+    color: palegoldenrod;
+    padding: 50px 0px 0px 0px;
+    margin-top: px;
+    align-self: flex-end;
+    justify-self:flex-end;
+    font-size: 85%;
 }
