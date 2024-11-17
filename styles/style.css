@@ -22,10 +22,11 @@ body {
 header {
     display: flex;
     flex-direction: column;
-    
-    color: rgb(255, 255, 255);
+    background-image: url("../img/header_background.jpg");
+    background-size: cover;
+    color: whitesmoke;
     text-align: center;
-    background-color: rgba(60, 60, 131, 0.805);
+   
     padding: 1%;
     margin: 1% 5% 2%;
     justify-content: center;
@@ -72,9 +73,9 @@ header .by {
 .template_details {
 
     display: flex;
-    padding: 0px 5%;
+    
     align-items: stretch;
-    justify-content: space-around;
+    justify-content: space-evenly;
     color: whitesmoke;
     margin: 3px 0px 0px 0px;
 
@@ -86,13 +87,17 @@ header .by {
     display: flex;
     flex-flow: column wrap;
     text-align: left;
-    padding: 75px 18px 0px 8px;
+    padding: 75px 12px 0px 10px;
     border-right: solid 2px whitesmoke;
-    flex: 15%;
-    gap: 2%;
+    align-items: center;
+    flex: 8%;
     justify-content: flex-start;
     background-color: rgba(60, 60, 131, 0.805);
     font-size: medium;
+}
+
+.navbar ul {
+    padding-left:  0px;
 }
 
 
