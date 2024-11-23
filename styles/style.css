@@ -74,7 +74,7 @@ header .by {
 .template_details {
 
     display: flex;
-    padding: 0px 5%;
+    padding: 0px 2%;
     align-items: stretch;
     justify-content: space-evenly;
     color: whitesmoke;
