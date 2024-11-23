@@ -61,7 +61,7 @@ header .by {
 
     display: flex;
     
-    padding: 0px 5%;
+    padding: 0px 1%;
     align-items: stretch;
     justify-content: space-around;
     color: whitesmoke;
@@ -91,7 +91,8 @@ header .by {
     padding: 75px 12px 0px 10px;
     border-right: solid 2px whitesmoke;
     align-items: center;
-    width: 15vmin;
+    min-width: 110px;
+    width: 25%;
     justify-content: flex-start;
    
     
@@ -130,10 +131,10 @@ header .by {
     
     padding: 2% 10% 2% 4%;
     font-size: large;
-    width: 95%;
+    min-width: 30%;
     background-image: url("../img/mainback.jpg");
     background-size: contain;
-
+    
 }
 
 
